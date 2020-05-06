@@ -1,18 +1,18 @@
 <?php
 
 /*
- * This file is part of the levelooy/zhetaoke.
+ * This file is part of the Yhcztk/zhetaoke.
  *
- * (c) levelooy <levelooy@666.com>
+ * (c) Yhcztk <Yhcztk@666.com>
  *
  * This source file is subject to the MIT license that is bundled.
  */
 
-namespace Levelooy\Zhetaoke;
+namespace Yhcztk\Zhetaoke;
 
-use Levelooy\Zhetaoke\Kernel\BaseClient;
-use Levelooy\Zhetaoke\Kernel\Exceptions\GoodRequestErrorException;
-use Levelooy\Zhetaoke\Kernel\Exceptions\InvalidArgumentException;
+use Yhcztk\Zhetaoke\Kernel\BaseClient;
+use Yhcztk\Zhetaoke\Kernel\Exceptions\GoodRequestErrorException;
+use Yhcztk\Zhetaoke\Kernel\Exceptions\InvalidArgumentException;
 
 class GoodClient extends BaseClient
 {

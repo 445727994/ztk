@@ -1,11 +1,11 @@
 {
-    "name": "levelooy\/zhetaoke",
+    "name": "yhcztk\/zhetaoke",
     "description": "折淘客 SDK for PHP",
     "license": "MIT",
     "authors": [
         {
-            "name": "levelooy",
-            "email": "levelooy@666.com"
+            "name": "yhcztk",
+            "email": "445727994@qq.com"
         }
     ],
     "require": {
@@ -15,16 +15,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Levelooy\\Zhetaoke\\": "src"
+            "Yhcztk\\Zhetaoke\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Levelooy\\Zhetaoke\\ServiceProviderForLaravel"
+                "Yhcztk\\Zhetaoke\\ServiceProviderForLaravel"
             ],
             "aliases": {
-                "Zhetaoke": "Levelooy\\Zhetaoke\\Facade"
+                "Zhetaoke": "Yhcztk\\Zhetaoke\\Facade"
             }
         }
     }

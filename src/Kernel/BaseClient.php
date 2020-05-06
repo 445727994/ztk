@@ -1,20 +1,20 @@
 <?php
 
 /*
- * This file is part of the levelooy/zhetaoke.
+ * This file is part of the Yhcztk/zhetaoke.
  *
- * (c) levelooy <levelooy@666.com>
+ * (c) Yhcztk <Yhcztk@666.com>
  *
  * This source file is subject to the MIT license that is bundled.
  */
 
-namespace Levelooy\Zhetaoke\Kernel;
+namespace Yhcztk\Zhetaoke\Kernel;
 
 use GuzzleHttp\Client;
-use Levelooy\Zhetaoke\Kernel\Exceptions\AlimamaErrorResponseException;
-use Levelooy\Zhetaoke\Kernel\Exceptions\Exception;
-use Levelooy\Zhetaoke\Kernel\Exceptions\HttpException;
-use Levelooy\Zhetaoke\Kernel\Exceptions\ZhetaokeErrorResponseException;
+use Yhcztk\Zhetaoke\Kernel\Exceptions\AlimamaErrorResponseException;
+use Yhcztk\Zhetaoke\Kernel\Exceptions\Exception;
+use Yhcztk\Zhetaoke\Kernel\Exceptions\HttpException;
+use Yhcztk\Zhetaoke\Kernel\Exceptions\ZhetaokeErrorResponseException;
 
 class BaseClient
 {
