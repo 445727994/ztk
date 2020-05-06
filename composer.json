@@ -10,7 +10,8 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^6.3",
-        "pimple/pimple": "^3.2"
+        "pimple/pimple": "^3.2",
+         "illuminate/container": "*"
     },
     "autoload": {
         "psr-4": {
